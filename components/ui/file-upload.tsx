@@ -112,7 +112,7 @@ export function FileUpload({ onFileChange, className, ...props }: FileUploadProp
                 <p className="text-sm font-medium">
                   <span className="text-primary">Click to upload</span> or drag and drop
                 </p>
-                <p className="text-xs text-muted-foreground mt-1">XLS, XLSX, or CSV (max 10MB)</p>
+                <p className="text-xs text-muted-foreground mt-1">XLS, XLSX, or CSV </p>
               </div>
               <Button
                 type="button"

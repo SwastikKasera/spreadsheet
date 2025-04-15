@@ -52,14 +52,14 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Open XLSX File Online - Instant Spreadsheet Viewer</title>
+        <title>View XLSX Online - Instant Spreadsheet Viewer</title>
         <meta
           name="description"
-          content="Easily open and view your XLSX, XLS, and CSV files online. Fast, secure, and browser-based spreadsheet viewer."
+          content="Easily view XLSX, XLS, and CSV files online. Experience fast, secure, and browser-based spreadsheet viewing without any installations."
         />
         <meta
           name="keywords"
-          content="open xlsx file online, xlsx viewer, view excel online, upload xlsx file, excel reader online"
+          content="view xlsx online, xlsx viewer, view excel online, upload xlsx file, excel reader online"
         />
       </Head>
 
@@ -68,11 +68,10 @@ export default function Home() {
       <main className="flex min-h-screen flex-col items-center justify-center p-4 md:p-24">
         <section className="w-full max-w-md space-y-6">
           <header className="text-center">
-            <h1 className="text-3xl font-bold">Open XLSX File Online</h1>
+            <h1 className="text-3xl font-bold">View XLSX Online</h1>
             <p className="text-md mt-2 text-muted-foreground">
-              View XLSX, XLS, and CSV spreadsheet files directly in your
-              browser. <br />
-              No Excel required.
+              Easily view XLSX, XLS, and CSV spreadsheet files directly in your browser. <br />
+              No Excel installation required.
             </p>
           </header>
 
@@ -83,13 +82,13 @@ export default function Home() {
             disabled={!file}
             onClick={handleOpenClick}
           >
-            Open This File
+            View This File
           </Button>
         </section>
         <Card className="p-6 mt-8">
           <section className="mt-8">
             <h2 className="text-3xl font-semibold mb-4">
-              How to Open XLSX Files Online
+              How to View XLSX Online
             </h2>
             <div className="list-decimal text-base text-muted-foreground">
               <p className="text-lg">
@@ -99,33 +98,24 @@ export default function Home() {
                 2. We&apos;ll instantly convert and preview it in your browser.
               </p>
               <p className="text-lg">
-                3. Click “Open This File” to open XLSX file online without
-                hassle.
+                3. Click “View This File” to view XLSX online with ease.
               </p>
             </div>
           </section>
           <section>
             <h2 className="text-3xl font-semibold mt-8">
-              Does All Excel Formula Work?
+              Do Excel Formulas Work?
             </h2>
             <p className="text-lg mt-4 text-muted-foreground leading-relaxed">
-              Yes, all Excel formulas work when you open XLSX file online using
-              our tool. Just type your formulas as needed. This app is designed
-              to quickly load and read Excel files directly in the
-              browser—perfect for when you don’t want to open another app just
-              for a small task.
+              Yes, all Excel formulas work when you view XLSX online using our tool. Just type your formulas as needed. This app is designed to quickly load and display Excel files directly in your browser—perfect when you want to view your spreadsheets without opening a separate application.
             </p>
           </section>
           <section>
             <h2 className="text-3xl font-semibold mt-8">
-              Why Use an Online XLSX Viewer?
+              Why Choose Our Online XLSX Viewer?
             </h2>
             <p className="text-lg mt-4 text-muted-foreground leading-relaxed">
-              Choosing to open XLSX file online allows you to instantly access
-              spreadsheet data without downloading or installing Excel. Whether
-              you're using a phone, tablet, or computer without Office
-              installed, our online viewer is the fastest way to view your
-              spreadsheet files.
+              Viewing XLSX online with our tool gives you instant access to your spreadsheet data without downloading or installing any software. Whether you are on a phone, tablet, or desktop, our browser-based viewer is the quickest way to view your Excel files.
             </p>
           </section>
           <section>
@@ -148,8 +138,7 @@ export default function Home() {
                   Can I use this on mobile?
                 </strong>
                 <p className="text-lg">
-                  Absolutely! You can open XLSX file online on phones, tablets,
-                  and desktops without any issues.
+                  Absolutely! You can view XLSX online on phones, tablets, and desktops without any issues.
                 </p>
               </div>
               <div>
@@ -157,8 +146,7 @@ export default function Home() {
                   Do I need to sign up?
                 </strong>
                 <p className="text-lg">
-                  No signup or login required. Open your XLSX file online for
-                  free anytime.
+                  No signup or login is required. Just upload your file and start viewing XLSX online for free.
                 </p>
               </div>
               <div>
@@ -166,8 +154,7 @@ export default function Home() {
                   Can I edit the Excel file?
                 </strong>
                 <p className="text-lg">
-                  Yes, you can edit, apply formulas, and export in different
-                  formats after you open XLSX file online.
+                  Yes, you can edit, apply formulas, and export in various formats after you view XLSX online.
                 </p>
               </div>
             </div>
